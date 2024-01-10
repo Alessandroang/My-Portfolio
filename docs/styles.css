@@ -479,6 +479,27 @@ small {
   gap: 3.2rem 1rem;
 }
 
+.icon-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon-list li img {
+  margin-right: 10px;
+}
+
+.icon-list li span {
+  white-space: nowrap;
+}
+
 /*******************
 		PROJECTS SECTION
 *************************/
