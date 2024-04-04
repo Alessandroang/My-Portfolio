@@ -580,6 +580,10 @@ small {
   font-size: clamp(1.15rem, 1vw, 1.3rem);
 }
 
+.tech-stack li:hover {
+  color: var(--accent-clr);
+}
+
 .project-links a {
   display: flex;
   align-items: center;
