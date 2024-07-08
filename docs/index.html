@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="" />
+	<meta name="keywords"
+		content="Jr. Full-Stack Web Developer, Mobile Developer, Open Source, Freelance Web Developer, Freelance Mobile Developer, Developer Portfolio" />
+
+	<meta name="description" content="Page description" />
+	<meta property="og:title" content="Alessandro Angelelli - Jr. Full-Stack Web Developer" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:image:alt" content="Alessandro Angelelli" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="og:url" content="" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="theme-color" content="#000000" />
+	<meta name="robots" content="index, follow" />
+
+	<link rel="icon" href="./assets/Io senza logo ralph.jpg" />
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+	<link rel="stylesheet" href="styles.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<!-- boxicons -->
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	<script src="./script.js" defer></script>
+	<title>Alessandro Angelelli - Jr. Full Stack Web Developer</title>
+</head>
+
+<body>
+	<!-- only for keyboard users -->
+	<a class="skip-to-content" href="#main-content">Vai ai contenuti</a>
+
+	<header class="main-header">
+		<nav class="nav slide-in-top">
+			<div class="container">
+				<a href="#">
+					<img src="./assets/Io senza logo ralph.jpg" alt="" class="logo" />
+					<title>Logo</title>
+				</a>
+
+				<ul class="nav-list">
+					<li>
+						<a href="#about" class="nav-links hover-effect">Un pò di me</a>
+					</li>
+					<li>
+						<a href="#skills" class="nav-links hover-effect">Competenze</a>
+					</li>
+					<li>
+						<a href="#projects" class="nav-links hover-effect">Progetti</a>
+					</li>
+					<li>
+						<a href="#contact" class="nav-links hover-effect">Contatti</a>
+					</li>
+
+				</ul>
+
+				<ul class="social-nav">
+					<li>
+						<a href="https://twitter.com" rel="noreferrer" target="_blank" aria-label="link to twitter">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 50 50"
+								style="fill: white;">
+								<path
+									d="M 11 4 C 7.1456661 4 4 7.1456661 4 11 L 4 39 C 4 42.854334 7.1456661 46 11 46 L 39 46 C 42.854334 46 46 42.854334 46 39 L 46 11 C 46 7.1456661 42.854334 4 39 4 L 11 4 z M 11 6 L 39 6 C 41.773666 6 44 8.2263339 44 11 L 44 39 C 44 41.773666 41.773666 44 39 44 L 11 44 C 8.2263339 44 6 41.773666 6 39 L 6 11 C 6 8.2263339 8.2263339 6 11 6 z M 13.085938 13 L 22.308594 26.103516 L 13 37 L 15.5 37 L 23.4375 27.707031 L 29.976562 37 L 37.914062 37 L 27.789062 22.613281 L 36 13 L 33.5 13 L 26.660156 21.009766 L 21.023438 13 L 13.085938 13 z M 16.914062 15 L 19.978516 15 L 34.085938 35 L 31.021484 35 L 16.914062 15 z">
+								</path>
+							</svg>
+						</a>
+
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/alessandro-angelelli-9514b827b/" rel="noreferrer"
+							target="_blank" aria-label="link to linkedin profile"><svg
+								xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+								style="fill: currentColor">
+								<circle cx="4.983" cy="5.009" r="2.188"></circle>
+								<path
+									d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+								</path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/Alessandroang" rel="noreferrer" target="_blank"
+							aria-label="link to github account"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+								height="20" viewBox="0 0 24 24" style="fill: currentColor">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+								</path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+
+				<div class="hamburger">
+					<div class="line-menu half start"></div>
+					<div class="line-menu"></div>
+					<div class="line-menu half end"></div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main id="main-content">
+		<!-- hero section -->
+		<section class="hero">
+			<div class="container">
+				<article class="hero-text bounce-in-left">
+					<div>
+						<p class="subtitle">Ciao a tutti 👋🏽, sono</p>
+						<h1 class="name">Alessandro Angelelli</h1>
+					</div>
+					<div>
+						<p class="intro">
+
+							Jr Full-Stack Web Developer con solide competenze informatiche e una forte motivazione a
+							crescere professionalmente. Dotato di buone capacità organizzative e gestionali, mi
+							inserisco facilmente in nuovi contesti lavorativi grazie allo spirito di squadra e alle
+							abilità di ascolto e comunicazione. La mia curiosità mi spinge ad affrontare nuove sfide
+							tecnologiche con entusiasmo. Cerco opportunità nel campo dello sviluppo web per applicare le
+							competenze acquisite e impararne di nuove, contribuendo al successo dei progetti.
+
+						</p>
+
+						<div class="hero-btn-container">
+							<a href="mailto:alessandroang94@gmail.com" class="btn hire-btn">
+								Assumimi
+							</a>
+							<!-- <a href="#" download="" class="btn download-link"
+									>Download CV</a
+								> -->
+						</div>
+					</div>
+				</article>
+				<img src="./assets/coding-ground.png" alt="coding desk" class="fade-in code" />
+			</div>
+		</section>
+
+		<!-- about section -->
+		<section class="about-me" id="about">
+			<div class="container" data-aos="fade-up">
+				<img src="./assets/Io senza logo ralph.jpg" alt="Alessandro Angelelli" />
+				<article>
+					<p class="subtitle">Chi è Alessandro Angelelli?</p>
+					<h2 class="title">Un po' di me</h2>
+					<div class="about">
+						<p>
+							Ho seguito il corso in Jr. Full-Stack Web Developer di Boolean, un corso full-time di 700
+							ore in
+							cui ho acquisito competenze approfondite in diverse tecnologie sia nel campo del backend che
+							del
+							frontend.
+						</p>
+						<p>
+							Ho sviluppato una solida comprensione dei principali linguaggi di programmazione,
+							framework e strumenti di sviluppo, lavorando su progetti pratici e affrontando sfide del
+							mondo
+							reale.Ho affinato la mia capacità di problem-solving, collaborazione in team e apprendimento
+							continuo,
+							preparandomi così per affrontare sfide complesse nel campo dello sviluppo software.
+						</p>
+						<p>
+
+						</p>
+						<p>
+							Quando non sono impegnato a costruire, imparare, esplorare e riflettere su come migliorare
+							le
+							cose, mi trovi a passeggiare lungo la riva del mare, dove il suono delle onde e l'odore
+							dell'aria salmastra rappresentano fonti di ispirazione e tranquillità.
+						</p>
+
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<!-- my skills -->
+		<section class="my-skills" id="skills" data-aos="fade-up">
+			<div class="container">
+				<article>
+					<p class="subtitle">LE MIE ABILITÀ</p>
+					<h2 class="title">Tecnologie con cui lavoro</h2>
+
+					<p class="info">
+						Attraverso i miei studi, ho acquisito una solida comprensione dei concetti di sviluppo web e
+						ho dedicato molto tempo
+						all'applicazione di questi principi in scenari e applicazioni reali. Attualmente
+						mi sto sporcando le mani con JAVA ed ecco alcune tecnologie con cui ho lavorato di recente:
+					</p>
+				</article>
+				<ul class="icon-list">
+					<li><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5"> HTML5</li>
+					<li><img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS"> CSS</li>
+					<li><img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript">
+						JavaScript</li>
+					<li><img src="https://img.icons8.com/color/48/vue-js.png" alt="vue-js" /> Vue
+					</li>
+					<li><img src="https://img.icons8.com/offices/48/000000/php-logo.png" alt="PHP"> PHP</li>
+					<li><img src="https://img.icons8.com/fluency/48/laravel.png" alt="laravel" /> Laravel</li>
+					<li><img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL"> MySQL</li>
+					<li><img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap"> Bootstrap</li>
+					<li><img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js"> Node.js</li>
+					<li><img src="https://img.icons8.com/color/48/000000/sass.png" alt="SASS"> SASS</li>
+					<li><img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"> Git</li>
+
+					<li><img src="https://img.icons8.com/glyph-neue/48/ffffff/github.png" alt="GitHub"> GitHub</li>
+					<li><img src="https://img.icons8.com/color/48/000000/vite.png" alt="Git"> Vite</li>
+					<li><img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="Wordpress">WordPress</li>
+					<li> Sviluppo di applicazioni</li>
+					<li> Lavoro di squadra</li>
+					<li> Problem solving</li>
+					<li> Web design responsive</li>
+
+					<li> Database</li>
+					<li> Composer</li>
+					<li> AJAX</li>
+
+				</ul>
+
+			</div>
+		</section>
+
+		<!-- projects section -->
+		<section class="projects-section" id="projects">
+			<div class="container">
+				<article data-aos="fade-up">
+					<p class="subtitle">I MIEI PROGETTI</p>
+					<h2 class="title">Alcune cose che ho costruito</h2>
+					<p class="info">
+						Mi piace tenermi occupato e avere sempre un progetto in cantiere. Dai un'occhiata ad alcune
+						delle applicazioni che ho sviluppato
+					</p>
+				</article>
+				<section class="projects">
+
+
+					<!-- Progetto 01: Deliveboo -->
+					<article class="project">
+
+						<!-- Video Popup Deliveboo -->
+						<div id="video-popup-deliveboo" class="video-popup">
+							<div class="video-content">
+								<span id="close-video-deliveboo" class="close-button">&times;</span>
+								<video id="presentation-video-deliveboo" controls>
+									<source src="Registrazione Deliveboo.mov" type="video/mp4">
+									Il tuo browser non supporta il tag video.
+								</video>
+							</div>
+						</div>
+
+						<a href="https://delivebo.netlify.app/" target="_blank" rel="noreferrer">
+							<img src="./assets/DeliveBoo.png"
+								alt="Screenshot del sito WordPress per negozio di abbigliamento" />
+						</a>
+						<div>
+							<h2>Deliveboo</h2>
+							<p>
+								Ho progettato e implementato DeliveBoo, insieme al team di colleghi, un'app
+								completa per la gestione di ordini online rivolta agli utenti finali e ai
+								ristoratori. Il front end,
+								sviluppato con Vue.js, offre un'esperienza utente dinamica e coinvolgente,
+								mentre il back end, basato su PHP
+								e Laravel, gestisce in modo efficiente gli ordini e semplifica la gestione del
+								menu per i ristoratori.
+								Per garantire la persistenza dei dati, ho integrato un database MySQL. Questo
+								progetto evidenzia
+								le mie competenze sia nel front-end che nel back-end development, offrendo una
+								soluzione completa e
+								scalabile per il settore della ristorazione online.
+							</p>
+							<ul class="tech-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Vue.js</li>
+								<li>JavaScript</li>
+								<li>PHP</li>
+								<li>Laravel</li>
+								<li>MySQL</li>
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a href="#" id="video-link-deliveboo" class="hover-effect">Video Presentazione →</a>
+								</li>
+								<li>
+									<a href="https://github.com/Alessandroang/deliveboo-back-office" target="_blank"
+										rel="noreferrer" class="hover-effect">GitHub →</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+					<!-- Progetto 02: Gestionale Ordini Pizzeria -->
+					<article class="project">
+
+						<!-- Video Popup Pizzeria -->
+						<div id="video-popup" class="video-popup">
+							<div class="video-content">
+								<span id="close-video" class="close-button">&times;</span>
+								<video id="presentation-video" controls>
+									<source src="Pizzeria.mov" type="video/mp4">
+									Il tuo browser non supporta il tag video.
+								</video>
+							</div>
+						</div>
+
+						<a href="https://github.com/Alessandroang/pos-system-php-pizzeria-fausta-luciano"
+							target="_blank" rel="noreferrer">
+							<img src="./assets/pizzeria-fausta.png" alt="Screenshot del gestionale per pizzeria"
+								title="Gestionale Ordini Pizzeria" />
+						</a>
+						<div>
+							<h2>Pizzeria Fausta e Luciano</h2>
+							<p>
+								Un gestionale completo per una pizzeria sviluppato in PHP e JavaScript.
+								Questo sistema offre funzionalità di gestione degli ordini, visualizzazione del menu,
+								aggiunta e modifica dei prodotti, registrazione dei clienti e gestione degli
+								amministratori.
+								L'interfaccia utente è stata progettata per essere user-friendly e facile da usare,
+								garantendo un'esperienza fluida per i gestori della pizzeria.
+							</p>
+							<ul class="tech-stack">
+								<li>PHP</li>
+								<li>JavaScript</li>
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a href="#" id="video-link" class="hover-effect">Video Presentazione →</a>
+								</li>
+								<li>
+									<a href="https://github.com/Alessandroang/pos-system-php-pizzeria-fausta-luciano"
+										target="_blank" rel="noreferrer" class="hover-effect">GitHub →</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+
+
+
+					<!-- 03 -->
+					<article class="project">
+						<a href="https://go-bike.netlify.app/" target="_blank" rel="noreferrer"><img
+								src="./assets/Sito bike.png" alt="go-bike screenshot" /></a>
+						<div>
+
+							<h2>Go Bike</h2>
+							<p>
+								Sito di mountain bike, sviluppato in un template
+								statico in HTML e CSS ispirato a design comuni di WordPress. L'attenzione è stata posta
+								sulla completezza del progetto, includendo sezioni per la presentazione delle bici,
+								itinerari, notizie e gallerie fotografiche. Il design rispecchia gli stili moderni e le
+								tendenze del settore, dimostrando le mie competenze nella creazione di interfacce
+								accattivanti e completamente funzionali, nonostante la staticità del template.
+							</p>
+							<ul class="tech-stack">
+
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>JavaScript</li>
+								<li>Vue</li>
+
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a href="https://go-bike.netlify.app/" target="_blank" rel="noreferrer"
+										class="hover-effect">Sito Live →</a>
+								</li>
+
+								<li>
+									<a href="https://github.com/Alessandroang/proj-html-vuejs" target="_blank"
+										rel="noreferrer" class="hover-effect">
+										Github →
+									</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+					<!-- 04 -->
+					<article class="project">
+						<a href="https://alessandroang.github.io/html-css-boolando/" target="_blank"
+							rel="noreferrer"><img src="./assets/boolando.png" alt="boolando screenshot"
+								title="boolando" /></a>
+						<div>
+
+							<h2>Boolando</h2>
+							<p>
+								Un negozio e-commerce per l'abbigliamento. Ho sviluppato Boolando, una replica statica
+								di un negozio di abbigliamento ispirato a Zalando, utilizzando HTML e CSS. Il progetto
+								presenta un'interfaccia utente intuitiva con sezioni dedicate a diverse categorie di
+								abbigliamento, una pagina di dettaglio prodotto e un carrello della spesa. L'attenzione
+								è stata posta sulla chiarezza visiva, facilitando la navigazione e la presentazione
+								dei prodotti. Boolando dimostra le mie competenze nel design web,
+								evidenziando la capacità di creare un'esperienza di shopping online completa e
+								visivamente attraente tramite l'uso di HTML e CSS.
+							</p>
+							<ul class="tech-stack">
+
+								<li>HTML</li>
+								<li>CSS</li>
+
+
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a href="https://alessandroang.github.io/html-css-boolando/" target="_blank"
+										rel="noreferrer" class="hover-effect">Sito Live →</a>
+								</li>
+								<li>
+									<a href="https://github.com/Alessandroang/html-css-boolando" target="_blank"
+										rel="noreferrer" class="hover-effect">Github →</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+
+					<!-- 05 -->
+					<article class="project">
+						<a href="https://github.com/Alessandroang/vite-boolflix" target="_blank" rel="noreferrer"><img
+								src="./assets/movieflix.jpg" alt="the movieflix screenshot" title="the/movieflix" /></a>
+						<div>
+
+							<h2>Boolflix</h2>
+							<p>
+								Visualizza film/serie TV popolari, di tendenza, ecc. prima di decidere cosa guardare.
+								Con film/serie TV simili e consigliati, puoi aggiungere film alla tua lista dei
+								desideri.
+							</p>
+							<ul class="tech-stack">
+								<li>HTML 5</li>
+								<li>CSS</li>
+								<li>Axios</li>
+
+							</ul>
+							<ul class="project-links">
+
+								<li>
+									<a href="https://github.com/Alessandroang/vite-boolflix" target="_blank"
+										rel="noreferrer" class="hover-effect">Github →</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+
+
+					<!-- 06 -->
+					<article class="project">
+						<a href="https://alessandroang.github.io/htmlcss-discord/" target="_blank" rel="noreferrer"><img
+								src="./assets/Discord.png" alt="ip address tracker website screenshot"
+								title="ip address tracker" /></a>
+						<div>
+
+							<h2>Discord</h2>
+							<p>
+								Ho sviluppato una fedele replica dell'app Discord utilizzando HTML e CSS nel mio
+								progetto. L'obiettivo era dimostrare competenze nel front-end development, evidenziando
+								la capacità di tradurre in modo accurato l'interfaccia complessa di Discord in un design
+								web funzionale e visivamente attraente.
+							</p>
+							<ul class="tech-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Javascript</li>
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a href="https://alessandroang.github.io/htmlcss-discord/" target="_blank"
+										rel="noreferrer" class="hover-effect">Sito Live →</a>
+								</li>
+								<li>
+									<a href="https://github.com/Alessandroang/htmlcss-discord" target="_blank"
+										rel="noreferrer" class="hover-effect">Github →</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+
+					<!-- 07 -->
+					<article class="project">
+						<a href="https://alessandroang.github.io/vue-boolzapp/" target="_blank" rel="noreferrer"><img
+								src="./assets/Boolzapp.png" alt="github profile website screenshot" title="" /></a>
+						<div>
+
+							<h2>Boolzapp</h2>
+							<p>
+								"Boolzapp" è una replica di WhatsApp, un'applicazione web di messaggistica sviluppata
+								con HTML, CSS e JavaScript. Offre un'interfaccia intuitiva per la comunicazione
+								istantanea, simile a WhatsApp.
+							</p>
+							<ul class="tech-stack">
+								<li>HTML</li>
+								<li>CSS</li>
+								<li>Javascript</li>
+								<li>Vue</li>
+
+							</ul>
+							<ul class="project-links">
+								<li>
+									<a href="https://alessandroang.github.io/vue-boolzapp/" target="_blank"
+										rel="noreferrer" class="hover-effect">Sito Live →</a>
+								</li>
+								<li>
+									<a href="https://github.com/Alessandroang/vue-boolzapp" target="_blank"
+										rel="noreferrer" class="hover-effect">Github →</a>
+								</li>
+							</ul>
+						</div>
+					</article>
+
+
+				</section>
+
+				<!-- others -->
+				<section class="other-noteworthy-project" data-aos="fade-up">
+					<h3>Altri progetti degni di nota</h3>
+					<ul class="other-projects">
+						<li>
+							<a href="https://alessandroang.github.io/html-css-spotifyweb/" target="_blank"
+								rel="noreferrer"><img src="./assets/Spotifly.png" alt="spotify page screenshot" />
+								<div>
+									<h4>Spotify</h4>
+									<p>
+										Una replica stilizzata dell'app di Spotify utilizzando HTML e CSS.
+										L'attenzione è stata posta sulla ricreazione dell'interfaccia utente
+										di Spotify, con un focus sulle funzionalità chiave come la navigazione tra
+										playlist e la visualizzazione dei brani. Il progetto testimonia le competenze
+										nel front-end development, dimostrando la capacità di tradurre un design
+										complesso in una user interface web coerente.
+									</p>
+									<ul>
+										<li>HTML</li>
+										<li>CSS</li>
+									</ul>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="https://room20shop.com/" target="_blank" rel="noreferrer">
+								<img src="./assets/room20.png" alt="DeliveBoo page screenshot" />
+								<div>
+									<h4>Room20 Shop</h4>
+									<p>
+										Un e-commerce realizzato con WordPress per un negozio di abbigliamento. Il sito
+										offre una vasta selezione di prodotti, categorie di abbigliamento e funzionalità
+										di
+										ricerca avanzate. L'interfaccia utente è stata progettata per essere chiara e
+										per
+										facilitare la navigazione e il processo di acquisto dei clienti.
+									</p>
+									<ul>
+										<li>WordPress</li>
+
+									</ul>
+								</div>
+							</a>
+						</li>
+
+					</ul>
+
+				</section>
+			</div>
+		</section>
+
+		<!-- contact section -->
+		<section class="contact" data-aos="fade-up">
+			<div class="container">
+				<p class="subtitle">HAI UN PROGETTO? O STAI SEMPLICEMENTE CERCANDO DI ASSUMERE?
+
+				</p>
+				<h2 class="title">Lavoriamo insieme</h2>
+				<p class="info">
+					Sentiti libero di contattarmi se stai cercando di assumere, vuoi semplicemente entrare in contatto o
+					vedere se possiamo costruire qualcosa di straordinario insieme.
+				</p>
+
+				<div class="project-links">
+					<a href="mailto:alessandroang94@gmail.com" class="mail-link hover-effect">Contattami →</a>
+					<a href="tel:+39 3884656085" class="mail-link hover-effect">
+						<img src="./assets/icons8-phone.gif" alt=""
+							style="width: 18px; height: 18px; margin-right: 5px;">+39 3884656085
+
+					</a>
+				</div>
+
+
+			</div>
+		</section>
+	</main>
+
+	<footer class=" footer" id="contact">
+		<div class="container">
+			<p>&copy; <span id="date"></span> Alessandro Angelelli</p>
+			<div>
+				<ul>
+					<li>
+						<a href="https://github.com/Alessandroang" rel="noreferrer" target="_blank"
+							class="hover-effect">github</a>
+					</li>
+					<li>
+						<a href="https://twitter.com" rel="noreferrer" target="_blank" class="hover-effect">twitter</a>
+					</li>
+				</ul>
+				<a href="#top" class="top">
+					<p class="scroll">scorri <span>verso l'alto</span></p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+						style="fill: currentColor">
+						<title>scorri verso l' alto</title>
+						<path d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z">
+						</path>
+						<path d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z">
+						</path>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
